@@ -229,7 +229,7 @@
         if($(showCardClass).length >= 2 && moveCount > 0) {
             --moveCount;
             moves.text(moveCount + ' Moves');
-        } else if((movesCount === 1)) {
+        } else if((moveCount === 1)) {
             moveCount = 0;
             moves.text(moveCount + ' Moves');
             setTimeout(endGame,1000);
